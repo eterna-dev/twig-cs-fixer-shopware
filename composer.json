@@ -1,0 +1,32 @@
+{
+    "name": "eterna-dev/twig-cs-fixer-shopware",
+    "autoload": {
+        "psr-4": {
+            "EternaDev\\TwigCsFixerShopware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Mühlbauer",
+            "email": "martin.muehlbauer@eterna.de"
+        }
+    ],
+    "require": {
+        "php": "~8.2",
+        "shopware/administration": "v6.5.7.3",
+        "shopware/core": "v6.5.7.3",
+        "shopware/elasticsearch": "v6.5.7.3",
+        "shopware/storefront": "v6.5.7.3"
+
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.52",
+        "phpunit/phpunit": "^11.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+}
